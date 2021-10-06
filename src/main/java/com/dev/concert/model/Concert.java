@@ -41,6 +41,10 @@ public class Concert {
         this.venue = venue;
     }
 
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
