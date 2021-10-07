@@ -11,14 +11,12 @@ Project is created with:
 ## Setup
 To run this project  
 clone the project from this [repository](https://github.com/tmatenhese/concert)  
-Extract the project and navigate to the base folder    
-Build the project by running  
-mvn clean install  
+cd concert/  
+docker-compose up  
 
+## Running the application  
 
-## Running the application
-
-Project exposes 1 Endpoint
+Project exposes 1 Endpoint  
 * /api/concerts      Method:GET accepts application/json list the concerts    
 
 To run the application you need to have JRE installed minimum JRE.11  

@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  concert-service:
+    image: tmatenhese/concert:latest
+    ports:
+      - "8080:8080"
